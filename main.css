@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Cabin', sans-serif;
+}
+
+image {
+    width: 100%;
+}
+
+.conatin {
+    background-color: gray;
+    height: 500px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    margin-right: auto;
+    margin-left: 450px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: black;
+    padding: 8px;
+}
+.links {
+    margin-right: 200px;
+}
+.links > a {
+    text-decoration: none;
+    color: darkslategray;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+.writing {
+    flex: 1;
+    margin-left: 450px;
+    margin-top: 100px;
+}
+.let {
+    color: orange;
+    font-size: 25px;
+}
+.crea {
+    font-size: 110px;
+}
+.egg {
+    flex: 1;
+    margin-right: 50px;
+    margin-top: 80px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+.right-btn {
+    margin-left: 40px;
+}
+.contact {
+    color: white;
+    background-color: orangered;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+}
+.about {
+    color: black;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 1px solid black;
+}
+
+img {
+    width: 80%;
+}
+
+section {
+    text-align: center;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+}
+.boxes > div {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.ice {
+    height: 600px;
+    width: 400px;
+    object-fit: cover;
+}
+.yellow {
+    height: 380px;
+    width: 300px;
+    object-fit: cover;
+}
+.pink {
+    height: 200px;
+    width: 300px;
+    margin-top: 20px;
+    object-fit: cover;
+}
+.red {
+    height: 220px;
+    width: 160px;
+    object-fit: cover;
+}
+.blue {
+    height: 350px;
+    width: 160px;
+    margin-top: 30px;
+    object-fit: cover;
+}
+.concepts {
+    color: white;
+    background-color: orangered;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-top: 40px;
+    border: none;
+}
+
+aside {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 40px;
+}
+.who {
+    font-size: 50px;
+}
+.cree {
+    color: gray;
+    font-size: 20px;
+}
+.scale {
+    margin-top: 40px;
+}
+.us {
+    color: white;
+    background-color: orangered;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 30px;
+}
+.potraits {
+    display: flex;
+    margin-top: 40px;
+}
+.card1 {
+    background-color: green;
+    height: 250px;
+    width: 200px;
+}
+.card2 {
+    background-color: green;
+    height: 250px;
+    width: 200px;
+    margin-left: 20px;
+}
+.con {
+    color: orange;
+}
+.right {
+    background-color: greenyellow;
+    height: 600px;
+    width: 400px;
+    margin-left: 40px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo-left {
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+    margin-left: 450px;
+}
+
+.btn-logo {
+color: white;
+background-color: black;
+border: 1px solid black;
+border-radius: 50%;
+padding: 9px;
+}
+.dig {
+    width: 10px;
+}
+.link {
+    display: flex;
+    flex-direction: column;
+    margin-right: 400px;
+    /* margin: 0 auto; */
+    /* margin-left: 100px; */
+}
+.link > a {
+    text-decoration: none;
+    color: grey;
+    line-height: 1.8;
+}
+
+.news {
+    margin-right: 480px;
+    display: flex;
+    flex-direction: column;
+}
+
+.news > p {
+    color: grey;
+    flex: 50%;
+}
+
+.sub {
+    flex: 100%;
+    display: flex;
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+.btn-sub {
+    border: none;
+    background-color: white;
+    color: grey;
+}
+input {
+    border: none;
+    
+}
+
+.copy > p {
+    text-align: center;
+    color: grey;
+    margin-top: 30px;
+}
